@@ -9,8 +9,9 @@ const Tweet = ({ tweetObj, isOwner }) => {
         const ok = window.confirm("삭제하시겠습니까?");
         if (ok) {
             await dbService.doc(`tweets/${tweetObj.id}`).delete();
-            if (tweetObj.attachmentUrl !== "")
+            if (tweetObj.attachmentUrl !== "") {
                 await storageService.refFromURL(tweetObj.attachmentUrl).delete();
+            }
         }
     };
 
