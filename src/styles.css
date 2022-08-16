@@ -32,7 +32,7 @@ form {
   width: 100%;
 }
 
-.nweet-input::placeholder {
+.tweet-input::placeholder {
   color: white;
   opacity: 0.9;
 }
@@ -159,15 +159,15 @@ form {
   font-size: 12px;
 }
 
-/* Nweet */
+/* Tweet */
 
-.nweetEdit .formBtn {
+.tweetEdit .formBtn {
   cursor: pointer;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-.nweet {
+.tweet {
   margin-bottom: 20px;
   background-color: white;
   width: 100%;
@@ -180,11 +180,11 @@ form {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.nweet h4 {
+.tweet h4 {
   font-size: 14px;
 }
 
-.nweet img {
+.tweet img {
   right: -10px;
   top: 20px;
   position: absolute;
@@ -194,17 +194,17 @@ form {
   margin-top: 10px;
 }
 
-.nweet__actions {
+.tweet__actions {
   position: absolute;
   right: 10px;
   top: 10px;
 }
 
-.nweet__actions span {
+.tweet__actions span {
   cursor: pointer;
 }
 
-.nweet__actions span:first-child {
+.tweet__actions span:first-child {
   margin-right: 10px;
 }
 
